@@ -1,0 +1,30 @@
+.header {
+    h3 {
+        color: $primary;
+    }
+
+    &__searchContainer {
+        height: 100px;
+        background-color: $primary;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .input-group {
+            .form-control {
+                border-top-left-radius: 1rem;
+                border-bottom-left-radius: 1rem;
+                outline: none;
+            }
+            .input-group-append {
+                .btn {
+                    border-top-right-radius: 1rem;
+                    border-bottom-right-radius: 1rem;
+                    background-color: $secondary;
+                    font-size: .9rem;
+                    border-color: $border;
+
+                }
+            }
+        }
+    }
+}
