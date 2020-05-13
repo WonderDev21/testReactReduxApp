@@ -21,7 +21,7 @@ const DayItem = ({ data, city }) => {
 
   return (
     <>
-      <Row>
+      <Row noGutters>
         <Col xs={2} className="text-center">
           <img
             src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
